@@ -1,0 +1,38 @@
+1º ¿Hay alguna gestión de excepciones en el código inicial?
+No
+
+2º Localiza dentro del mensaje de error, tanto la pila de llamadas a métodos, como el número de
+línea donde se hacen dichas llamadas.
+Hecho
+
+3º Localiza también el nombre de la excepción que ha saltado. ¿De que tipo es?
+ArithmeticException
+
+4º De la pila de llamadas a métodos, ¿En cuál método crees que ha saltado realmente la excepción?
+En C
+
+5º Crea una nueva clase de nombre "MethodCallStackSolutionA" en el que debes gestionar la
+excepción dentro de methodC. Lanza el programa y compara la salida por consola anterior con la
+actual, deberías tener una salida como la siguiente:
+Enter main
+Enter methodA
+Enter methodB
+Enter methodC
+Excepción gestionada dentro de methodC
+Exit methodB
+Exit methodA
+Exit main
+
+Hecho
+
+6º ¿Echas en falta algún sout del código en la salida por pantalla anterior?
+Exit methodC
+
+7º Crea una nueva clase de nombre "MethodCallStackSolutionB" en el que debes gestionar la
+excepción dentro de main. Lanza el programa y compara la salida por consola anterior con la actual.
+Enter main
+Enter methodA
+Enter methodB
+Enter methodC
+Error gestionado en el método main
+Exit main
